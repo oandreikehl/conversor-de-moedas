@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: 
+        linear-gradient(rgba(13, 13, 13, 0.75), rgba(13, 13, 13, 0.75)),
+        url("./assets/Gemini_Generated_Image_yrtmeyyrtmeyyrtm.jpg") center / cover no-repeat;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main {
+    background: #F2E3B6;
+    border-radius: 20px;
+    width: 375px;
+    display: block;
+    margin: auto;
+    padding: 44px 24px 23px;
+}
+
+.currency-img {
+    width: 300px;
+    height: 300px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #F2E3B6;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 1000;
+    margin-bottom: 30px;
+    span {
+        color: #A67D4B;
+    }
+}
+
+label {
+    font-size: 14px;
+    line-height: 18px;
+    color: #0d0d0d;
+    font-weight: 500;
+}
+
+select {
+    width: 327px;
+    height: 48px;
+    border: 1px;
+    border-color: #BBBBBB;
+    background-color: #FFFFFF;
+    color: #0D0D0D;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+input {
+    width: 327px;
+    height: 48px;
+    border: 1px;
+    border-color: #BBBBBB;
+    background-color: #FFFFFF;
+    color: #0D0D0D;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    border: none;
+    background-color: #A67D4B;
+    color:#FFFFFF;
+    text-shadow: 0 4px 4px #00000040;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+        background-color: #D9B779;
+        transition: 0.3s;
+    }
+    
+section {
+    background-color: #FFFFFF;
+    border: 1px solid #0d0d0d;
+    border-radius: 20px;
+    width: 327px;
+    height: 276px;
+    display: block;
+    margin: auto;
+}
+
+.real-currency {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.dolar-currency {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.currency-img-to-convert {
+    width: 44px;
+    height: 44px;
+}
+
+.arrow-img {
+    width: 44px;
+    height: 44px;
+    display: block;
+    margin: auto;
+
+}
+
+.currency-img-converted {
+    width: 44px;
+    height: 44px;
+}
+
+h3 {
+    font-size: 14px;
+    line-height: 21px;
+    color: #0D0D0D;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+    line-height: 18px;
+    color: #0D0D0D;
+    font-weight: 700;
+}
